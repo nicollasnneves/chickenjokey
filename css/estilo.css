@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@font-face {
+  font-family: 'Lora';
+  src: url('../fontes/Lora/Lora-Italic-VariableFont_wght.ttf');
+}
+
+body {style
+  font-family: "Lora", serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #252525;
+  color: white;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  background-color: #444;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: 0.3s;
+  background-color: #555;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #ff4500;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.tabela-futebol {
+  margin: 30px auto;
+  max-width: 900px;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: "Lora", serif;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #252525;
+  color: white;
+  font-size: 18px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #ffe4c4;
+  cursor: default;
+}
+
+h2 {
+  margin-top: 40px;
+  font-size: 28px;
+  color: #252525;
+}
